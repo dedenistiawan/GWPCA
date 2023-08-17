@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+    <title>indo_and_var</title>
+    <layers>
+        <layer>
+            <datasource>
+                <type>ESRI Shapefile</type>
+                <path>indo_and_var.shp</path>
+            </datasource>
+            <layername>indo_and_var</layername>
+            <title/>
+            <variable_order>
+                <time_ids>
+                    <id>time 0</id>
+                </time_ids>
+                <var>penim</var>
+                <var>gid</var>
+                <var>kdprov</var>
+                <var>kdkab</var>
+                <var>nmprov</var>
+                <var>nmkab</var>
+                <var>periode</var>
+                <var>idkab</var>
+                <var>sumber</var>
+                <var>
+                    all variab
+                    <displayed_decimals>6</displayed_decimals>
+                </var>
+                <var>
+                    all vari_1
+                    <displayed_decimals>6</displayed_decimals>
+                </var>
+                <var>
+                    all vari_2
+                    <displayed_decimals>6</displayed_decimals>
+                </var>
+                <var>
+                    all vari_3
+                    <displayed_decimals>6</displayed_decimals>
+                </var>
+                <var>
+                    all vari_4
+                    <displayed_decimals>6</displayed_decimals>
+                </var>
+                <var>
+                    all vari_5
+                    <displayed_decimals>6</displayed_decimals>
+                </var>
+                <var>
+                    all vari_6
+                    <displayed_decimals>6</displayed_decimals>
+                </var>
+                <var>
+                    all vari_7
+                    <displayed_decimals>6</displayed_decimals>
+                </var>
+                <var>
+                    all vari_8
+                    <displayed_decimals>6</displayed_decimals>
+                </var>
+                <var>
+                    all vari_9
+                    <displayed_decimals>6</displayed_decimals>
+                </var>
+                <var>
+                    all vari10
+                    <displayed_decimals>6</displayed_decimals>
+                </var>
+                <var>
+                    all vari11
+                    <displayed_decimals>6</displayed_decimals>
+                </var>
+                <var>
+                    all vari12
+                    <displayed_decimals>6</displayed_decimals>
+                </var>
+                <var>
+                    all vari13
+                    <displayed_decimals>6</displayed_decimals>
+                </var>
+                <var>
+                    all vari14
+                    <displayed_decimals>6</displayed_decimals>
+                </var>
+            </variable_order>
+            <custom_classifications/>
+            <weights_entries>
+                <weights>
+                    <title>indo_and_var</title>
+                    <default/>
+                    <meta_info>
+                        <weights_type>knn</weights_type>
+                        <dist_metric>euclidean</dist_metric>
+                        <dist_units>Degree</dist_units>
+                        <dist_values>centroids</dist_values>
+                        <num_neighbors>4</num_neighbors>
+                        <path>indo_and_var.gwt</path>
+                        <id_variable>penim</id_variable>
+                        <symmetry>asymmetric</symmetry>
+                        <num_observations>514</num_observations>
+                        <min_neighbors>4</min_neighbors>
+                        <max_neighbors>4</max_neighbors>
+                        <mean_neighbors>4</mean_neighbors>
+                        <median_neighbors>4</median_neighbors>
+                        <non_zero_perc>0.7782101167315175</non_zero_perc>
+                    </meta_info>
+                </weights>
+            </weights_entries>
+            <default_vars>
+                <default_var>
+                    <name>all vari14</name>
+                    <time_id>time 0</time_id>
+                </default_var>
+                <default_var>
+                    <name/>
+                    <time_id>time 0</time_id>
+                </default_var>
+                <default_var>
+                    <name/>
+                    <time_id>time 0</time_id>
+                </default_var>
+                <default_var>
+                    <name/>
+                    <time_id>time 0</time_id>
+                </default_var>
+            </default_vars>
+        </layer>
+    </layers>
+</project>
